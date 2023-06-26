@@ -22,7 +22,7 @@
   SITE_URL = "https://theottoman.netlify.app"
   # (Optional) Site Timezone
   TIMEZONE = "Asia/Hong_Kong"
-  ZOLA_VERSION = "0.15.2"
+  ZOLA_VERSION = "0.17.1"
   # (Optional, default title) How to sort notes inside each section on the right sidebar ("date" or "title"). Subsections on side bar are sorted by title, the sort order cannot be changed.
   SORT_BY = "title"
   # (Optional) Google Analytics Measurement ID
