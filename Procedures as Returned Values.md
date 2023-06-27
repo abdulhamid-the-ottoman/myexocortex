@@ -96,13 +96,13 @@ tags:: #procedures_as_returned_values, #newtons_method #first_class_procedures
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [Exercise 1.40](Exercise%201.40.md)
-- [Exercise 1.41](Exercise%201.41.md)
-- [Exercise 1.42](Exercise%201.42.md)
-- [Exercise 1.43](Exercise%201.43.md)
-- [Exercise 1.44](Exercise%201.44.md)
-- [Exercise 1.45](Exercise%201.45.md)
-- [Exercise 1.46](Exercise%201.46.md)
+- [Exercise 40](SICPE%201.40.md)
+- [Exercise 41](SICPE%201.41.md)
+- [Exercise 42](SICPE%201.42.md)
+- [Exercise 43](SICPE%201.43.md)
+- [Exercise 44](SICPE%201.44.md)
+- [Exercise 45](SICPE%201.45.md)
+- [Exercise 46](SICPE%201.46.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 
