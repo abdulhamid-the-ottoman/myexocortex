@@ -41,10 +41,10 @@ tags:: #lambda #let
 	
 		```Scheme
 	  (define (f x y)
-	  (define (f-helper a b) ; here are our local variables
-		    (+ (* x (square a))
-		       (* y b)
-		       (* a b)))
+			(define (f-helper a b) ; here are our local variables
+				    (+ (* x (square a))
+				       (* y b)
+				       (* a b)))
 			(f-helper (+ 1 (* x y)
 		            (- 1 y))))
 	  ```
@@ -112,7 +112,7 @@ tags:: #lambda #let
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [Exercise 1.34](Exercise%201.34.md)
+- [Exercise 34](SICPE%201.34.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 
