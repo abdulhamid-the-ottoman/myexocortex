@@ -5,6 +5,9 @@ banner_x: 0.5
 share: true
 ---
 
+up:: [SICP](./SICP.md)
+tags:: #sicp #exercises #chapter1
+
 # All Exercises
 - [ Exercise 1 ](SICPE%201.01.md)
 - [ Exercise 2 ](SICPE%201.02.md)
