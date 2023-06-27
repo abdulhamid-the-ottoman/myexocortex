@@ -43,7 +43,7 @@ tags:: #procedures_as_arguments
   (if (> a b)
       0
       (+ (<term> a) ; a term calculation
-         (name (<next> a) b))))  ; recursive call with the next value
+         (<name> (<next> a) b))))  ; recursive call with the next value
 ```
 
 	- This is a useful abstraction, just as the sigma notation $\Sigma$ (symbol for summation) in math because the summation of series is so common.
@@ -83,7 +83,11 @@ tags:: #procedures_as_arguments
 		(define (integral f a b dx)
 			(define (add-dx x)
 			    (+ x dx))
-			(* (sum f (+ a (/ dx 2.0)) add-dx b) dx))
+			(* (sum f 
+					(+ a (/ dx 2.0)) 
+					add-dx 
+					b) 
+				dx))
 
 		(integral cube 0 1 0.01) ; 0.24998750000000042
 	```
@@ -94,11 +98,11 @@ tags:: #procedures_as_arguments
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [Exercise 1.29](Exercise%201.29.md)
-- [Exercise 1.30](Exercise%201.30.md)
-- [Exercise 1.31](Exercise%201.31.md)
-- [Exercise 1.32](Exercise%201.32.md)
-- [Exercise 1.33](Exercise%201.33.md)
+- [Exercise 29](SICPE%201.29.md)
+- [Exercise 30](SICPE%201.30.md)
+- [Exercise 31](SICPE%201.31.md)
+- [Exercise 32](SICPE%201.32.md)
+- [Exercise 33](SICPE%201.33.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 
