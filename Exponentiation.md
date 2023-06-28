@@ -47,10 +47,10 @@ tags:: #exponentiation, #sicp/ch1
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [SICPE 1.16](./SICPE%201.16.md)
-- [Exercise 1.17](Exercise%201.17.md)
-- [Exercise 1.18](Exercise%201.18.md)
-- [Exercise 1.19](Exercise%201.19.md)
+- [Exercise 16](./SICPE%201.16.md)
+- [Exercise 17](Exercise%201.17.md)
+- [Exercise 18](Exercise%201.18.md)
+- [Exercise 19](Exercise%201.19.md)
 
 ## 🎯 Actions
 - [ ] 
