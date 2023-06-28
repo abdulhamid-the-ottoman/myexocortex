@@ -15,7 +15,7 @@ tags:: #expressions, #sicp/ch1
 	- More precisely, the expression that you type consists of the numerals that represents the number in base 10. 
 	- Ex: 574 is an expression composed of numerals 5, 7 and 4 which represents the number five hundred and seventy four.
 
-- An application of a *primitive procedure* (such as + or \*)  to  numbers is one kind of *compound expression*.
+- An application of a *primitive procedure* (such as + or \*)  to  numbers is one kind of *compound expression*. 
 ```Scheme
 #lang sicp
 
@@ -37,22 +37,22 @@ tags:: #expressions, #sicp/ch1
 	 ```Scheme
 	  (+ 21 21 12 10 39) ;  5 arguments
 	  (+ 11 23) ; 2 arguments
-```
+	```
 
 - Combinations can be nested.
 	- An operator or an operand can be itself another combination.
 	 ```Scheme
 	 (+ (* 3 4) (- 10 5)) ; 17
-```
-
-	- A way to write nested expressions is to align the operands of the combinations vertically. This is known as *pretty printing*
+	```
+	
+- A way to write nested expressions is to align the operands of the combinations vertically. This is known as *pretty printing*
 	 ```Scheme
-(+ (* 3
-      (+ (* 2 4)
-         (+ 3 5)))
-   (+ (- 10 7)
-      6))
-```
+		(+ (* 3
+		      (+ (* 2 4)
+		         (+ 3 5)))
+		   (+ (- 10 7)
+		      6))
+	```
 	
 
 ---
@@ -60,7 +60,8 @@ tags:: #expressions, #sicp/ch1
 ## 🔑 Key Points
 - 
 ## ❓ Questions
-- 
+-  What does compound mean?
+	- a thing that is composed of two or more separate elements
 ## 📦 Resources
 - 
 ## 🎯 Actions
