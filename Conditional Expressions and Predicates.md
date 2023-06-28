@@ -59,7 +59,6 @@ tags:: #conditional_expressions_and_predicates #sicp/ch1
 (not <e>)
 ```
 
-
 ---
 
 ## 🔑 Key Points
@@ -72,11 +71,11 @@ tags:: #conditional_expressions_and_predicates #sicp/ch1
 	- In scheme, there are 2 distinguished values that are denoted by constants  \#t  (true) and \#f (false).
 	- When the interpreter checks a predicate's value, it interprets \#f as false, any other value is treated as true. (So \#t is unnecessary, but it is convenient)
 ## 📦 Resources
-- [SICPE 1.01](./SICPE%201.01.md)
-- [SICPE 1.02](./SICPE%201.02.md)
-- [SICPE 1.03](./SICPE%201.03.md)
-- [SICPE 1.04](./SICPE%201.04.md)
-- [SICPE 1.05](./SICPE%201.05.md)
+-  [Exercise 1](./SICPE%201.01.md)
+- [ Exercise 2](./SICPE%201.02.md)
+- [ Exercise 3](SICPE%201.03.md)
+-  [Exercise 4](./SICPE%201.04.md)
+-  [Exercise 5](./SICPE%201.05.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 
