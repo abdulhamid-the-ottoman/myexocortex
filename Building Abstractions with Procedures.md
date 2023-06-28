@@ -68,6 +68,7 @@ tags:: #building_abstractions_with_procedures #sicp/ch1
 			- Synchronous Data Flow
 - What is a procedure?
 	- Lisp descriptions of processes are called procedures.
+	- In the dictionary, *procedure* means an established or official way of doing something.
 - What does modular mean?
 	-  A modular system is a collection of building blocks that can be configured in different ways, adapting for different customer needs
 ## 📦 Resources

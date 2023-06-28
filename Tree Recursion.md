@@ -43,6 +43,18 @@ tags:: #tree_recursion , #factorial_example, #coin_change_example
       (fib-iter (+ total prev) total (+ cnt 1) num)))
 ```
 
+- Here is a trace of (fib 3)
+
+```Scheme
+>(fib-iter 1 0 1 3) ; 1st call
+>;first iteration  - (1+0)
+>(fib-iter 1 1 2 3) ; 2nd call
+>;second iteration - (1+1)
+>(fib-iter 2 1 3 3) ; 3rd call
+<2
+2
+```
+
 - Here another  implementation generating an iterative process which holds 3 variables for the state.
 ```Scheme
 (define (fib n)
@@ -82,7 +94,6 @@ int fib(int n){
 #### Example: Counting Change
 
 ^cdcde0
-
 - Let f(A,N) represent the number of ways of changing the amount A using N kinds of coins.
 - If the first kind of coin has denomination D, then f(A,N) = f(A, N-1) + f(A-D,N)
 	- In other words, there are 2 situations : where you don't use any of the first kind of coin, and when you do.
@@ -131,9 +142,9 @@ int fib(int n){
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [SICPE 1.11](./SICPE%201.11.md)
-- [SICPE 1.12](./SICPE%201.12.md)
-- [SICPE 1.13](./SICPE%201.13.md)
+- [Exercise 11](./SICPE%201.11.md)
+- [Exercise 12](./SICPE%201.12.md)
+- [Exercise 13](./SICPE%201.13.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 

@@ -108,11 +108,11 @@ tags:: #procedures_as_general_methods #half_interval_method #fixed_point_of_func
 			- y = $\frac{x}{y}$ , to do that we add y to both sides and divide it by 2, we have 2y = y+ (x/y) -> y  = $\frac{1}{2}$(y + x/y)
 		- This approach of averaging successive approximations to a solution, a technique that we call *average damping*, often aids the convergence of fixed-point searches.
 ## 📦 Resources
-- [Exercise 1.35](Exercise%201.35.md)
-- [Exercise 1.36](Exercise%201.36.md)
-- [Exercise 1.37](Exercise%201.37.md)
-- [Exercise 1.38](Exercise%201.38.md)
-- [Exercise 1.39](Exercise%201.39.md)
+- [Exercise 35](SICPE%201.35.md)
+- [Exercise 36](SICPE%201.36.md)
+- [Exercise 37](SICPE%201.37.md)
+- [Exercise 38](SICPE%201.38.md)
+- [Exercise 39](SICPE%201.39.md)
 ## 🎯 Actions
 - [x] Answer the questions in the questions section
 - [ ] 

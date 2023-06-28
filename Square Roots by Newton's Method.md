@@ -58,9 +58,9 @@ tags:: #squareroot_method #sicp/ch1
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [SICPE 1.06](./SICPE%201.06.md)
-- [SICPE 1.07](./SICPE%201.07.md)
-- [SICPE 1.08](./SICPE%201.08.md)
+- [Exercise 6](./SICPE%201.06.md)
+- [Exercise 7](./SICPE%201.07.md)
+- [Exercise 8](./SICPE%201.08.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 

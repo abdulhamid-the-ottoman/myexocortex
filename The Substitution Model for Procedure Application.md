@@ -56,7 +56,7 @@ tags:: #substitution_model_for_procedure_application, #sicp/ch1
 		-  In general, when modeling an phenomena in science and engineering, we begin with simplified, incomplete models.
 		- As we examine things in greater detail, these simple models become inadequate and must be replaced by more refined models
 ## 📦 Resources
--  [SICPE 1.05](./SICPE%201.05.md)
+-  [Exercise 5](./SICPE%201.05.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 

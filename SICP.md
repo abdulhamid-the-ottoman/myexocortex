@@ -16,7 +16,7 @@ share: true
 - [Preface](Preface.md)
 - [Highlights](Highlights.md)
 
-## Building Abstractions with Procedures
+## 💠 <mark style="background: #D2B3FFA6;">[Building Abstractions with Procedures](./Building%20Abstractions%20with%20Procedures.md)</mark>
 - 📚 [The Elements of Programming](./The%20Elements%20of%20Programming.md)
 	- [Expressions](./Expressions.md)
 	- [Naming and the Environment](./Naming%20and%20the%20Environment.md)
@@ -41,30 +41,32 @@ share: true
 	- [Procedures as General Methods](./Procedures%20as%20General%20Methods.md)
 	- [Procedures as Returned Values](./Procedures%20as%20Returned%20Values.md)
 
-## Building Abstractions with Data
+## 💠<mark style="background: #D2B3FFA6;">[Building Abstractions with Data](./Building%20Abstractions%20with%20Data.md)</mark>
 
-- 📚 [Introduction to Data Abstraction](Introduction%20to%20Data%20Abstraction.md)
-	- [Arithmetic Operations for Rational Numbers](Arithmetic%20Operations%20for%20Rational%20Numbers.md)
-	- [Abstraction Barriers](Abstraction%20Barriers.md)
-	- [What is Meant by Data?](What%20is%20Meant%20by%20Data?.md)
-	- [Interval Arithmetic](Interval%20Arithmetic.md)
+^d1c4f8
 
-- 📚[Hierarchical Data and the Closure Property](Hierarchical%20Data%20and%20the%20Closure%20Property.md)
-	- [Representing Sequences](Representing%20Sequences.md)
-	- [Hierarchical Structures](Hierarchical%20Structures.md)
-	- [Sequences as Conventional Interfaces](Sequences%20as%20Conventional%20Interfaces.md)
-	- [A Picture Language](A%20Picture%20Language.md)
+- 📚 [Introduction to Data Abstraction](./Introduction%20to%20Data%20Abstraction.md) ^0a8a89
+	- [Arithmetic Operations for Rational Numbers](./Arithmetic%20Operations%20for%20Rational%20Numbers.md)
+	- [Abstraction Barriers](./Abstraction%20Barriers.md)
+	- [What is Meant by Data?](./What%20is%20Meant%20by%20Data?.md)
+	- [Interval Arithmetic](./Interval%20Arithmetic.md)
 
-- 📚[Symbolic Data](Symbolic%20Data.md)
-	- [Quotation](Quotation.md)
-	- [Symbolic Differentiation](Symbolic%20Differentiation.md)
-	- [Representing Sets](Representing%20Sets.md)
-	- [Huffman Encoding Trees](Huffman%20Encoding%20Trees.md)
+- 📚[Hierarchical Data and the Closure Property](./Hierarchical%20Data%20and%20the%20Closure%20Property.md) ^25846d
+	- [Representing Sequences](./Representing%20Sequences.md)
+	- [Hierarchical Structures](./Hierarchical%20Structures.md)
+	- [Sequences as Conventional Interfaces](./Sequences%20as%20Conventional%20Interfaces.md)
+	- [A Picture Language](./A%20Picture%20Language.md)
 
-- 📚 [Multiple Representations for Abstract Data](Multiple%20Representations%20for%20Abstract%20Data.md)
-	- [Representations for Complex Numbers](Representations%20for%20Complex%20Numbers.md)
-	- [Tagged Data](Tagged%20Data.md)
-	- [Data-Directed Programming and Additivity](Data-Directed%20Programming%20and%20Additivity.md)
+- 📚[Symbolic Data](./Symbolic%20Data.md) ^369430
+	- [Quotation](./Quotation.md)
+	- [Symbolic Differentiation](./Symbolic%20Differentiation.md)
+	- [Representing Sets](./Representing%20Sets.md)
+	- [Huffman Encoding Trees](./Huffman%20Encoding%20Trees.md)
+
+- 📚 [Multiple Representations for Abstract Data](./Multiple%20Representations%20for%20Abstract%20Data.md) ^b0aa29
+	- [Representations for Complex Numbers](./Representations%20for%20Complex%20Numbers.md)
+	- [Tagged Data](./Tagged%20Data.md)
+	- [Data-Directed Programming and Additivity](./Data-Directed%20Programming%20and%20Additivity.md)
 
 - 📚 [Systems with Generic Operations](Systems%20with%20Generic%20Operations.md)
 	- [Generic Arithmetic Operations](Generic%20Arithmetic%20Operations.md)
@@ -208,7 +210,7 @@ share: true
 
  - 📚 [Note on the Language](Note%20on%20the%20Language.md)
  - 📚 [ Building Abstractions with Procedures](./SICP-Chapter1-Exercises.md)
- - 📚 [ Building Abstractions with Data](SICP-Chapter2-Exercises.md)
+ - 📚 [ Building Abstractions with Data](SICP-Chapter2-Exercises.md) ^b5e02a
  - 📚 [Modularity, Objects, and State](SICP-Chapter3-Exercises.md)
  - 📚 [Metalinguistic Abstraction](SICP-Chapter4-Exercises.md)
  - 📚[Computing with Register Machines](SICP-Chapter5-Exercises.md)

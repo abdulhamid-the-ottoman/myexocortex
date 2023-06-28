@@ -41,14 +41,14 @@ tags:: #testing_for_primality, #probabilistic_methods #sicp/ch1
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [Exercise 1.21](Exercise%201.21.md)
-- [Exercise 1.22](Exercise%201.22.md)
-- [Exercise 1.23](Exercise%201.23.md)
-- [Exercise 1.24](Exercise%201.24.md)
-- [Exercise 1.25](Exercise%201.25.md)
-- [Exercise 1.26](Exercise%201.26.md)
-- [Exercise 1.27](Exercise%201.27.md)
-- [Exercise 1.28](Exercise%201.28.md)
+- [Exercise 21](SICPE%201.21.md)
+- [Exercise 22](SICPE%201.22.md)
+- [Exercise 23](SICPE%201.23.md)
+- [Exercise 24](SICPE%201.24.md)
+- [Exercise 25](SICPE%201.25.md)
+- [Exercise 26](SICPE%201.26.md)
+- [Exercise 27](SICPE%201.27.md)
+- [Exercise 28](SICPE%201.28.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 

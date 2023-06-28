@@ -3,11 +3,11 @@ created: ["2023-06-12 07:08"]
 share: true
 ---
 
-up::
+up:: [SICP-Chapter1-Exercises](./SICP-Chapter1-Exercises.md)
 
 # ❗ Information
-Related to:: 
-Tags:: 
+Related to:: #expression_evaluation
+Tags:: #easy
 
 ___
 # 🌍 Problem Definition

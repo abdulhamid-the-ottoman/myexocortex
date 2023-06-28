@@ -39,7 +39,7 @@ tags:: #gcd #sicp/ch1
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [Exercise 1.20](Exercise%201.20.md) 
+- [Exercise 20](Exercise%201.20.md) 
 ## 🎯 Actions
 - [ ] 
 - [ ] 

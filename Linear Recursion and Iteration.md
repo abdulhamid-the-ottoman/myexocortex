@@ -72,8 +72,8 @@ tags:: #linear_recursion_and_iteration #sicp/ch1
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [SICPE 1.09](./SICPE%201.09.md)
-- [SICPE 1.10](./SICPE%201.10.md)
+- [Exercise 9](./SICPE%201.09.md)
+- [Exercise 10](./SICPE%201.10.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 

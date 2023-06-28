@@ -7,7 +7,7 @@ tags:: #procedures_as_blackbox_abstraactions #sicp/ch1
 # Procedures as Black-Box Abstractions
 
 > [!INFO] The Gist
-> A user should not need to know hot the procedure is implemented in order to use it
+> A user should not need to know how the procedure is implemented in order to use it
 
 - Each procedure in a program should accomplish an identifiable task that can be used as a module in defining other procedures.
 - When we use a procedure as a  *"black box"*, **we are concerned with what it is doing but not how it is doing.**
@@ -41,8 +41,8 @@ tags:: #procedures_as_blackbox_abstraactions #sicp/ch1
 ## Internal definitions and block structure
 
 - Putting a definition in the body of a procedure makes it local to that procedure. This nesting is called *block structure*.
-	- this is the simplest solution to name-packaging problem.
-- Now we have 2 kinds of name isolation: 
+	- this is the simplest solution to **name-packaging problem.**
+- Now we have 2 kinds of *name isolation*: 
 	- formal parameters
 	- internal definitions.
 - By internalizing auxiliary procedures, we can often eliminate bindings by allowing variables to remain free.
