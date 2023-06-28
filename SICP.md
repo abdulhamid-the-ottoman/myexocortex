@@ -68,8 +68,8 @@ share: true
 	- [Tagged Data](./Tagged%20Data.md)
 	- [Data-Directed Programming and Additivity](./Data-Directed%20Programming%20and%20Additivity.md)
 
-- 📚 [Systems with Generic Operations](Systems%20with%20Generic%20Operations.md)
-	- [Generic Arithmetic Operations](Generic%20Arithmetic%20Operations.md)
+- 📚 [Systems with Generic Operations](./Systems%20with%20Generic%20Operations.md) ^daebf9
+	- [Generic Arithmetic Operations](./Generic%20Arithmetic%20Operations.md)
 	- [Combining Data of Different Types](Combining%20Data%20of%20Different%20Types.md)
 	- [Symbolic Algebra](Symbolic%20Algebra.md)
 
@@ -209,7 +209,7 @@ share: true
 # Exercises
 
  - 📚 [Note on the Language](Note%20on%20the%20Language.md)
- - 📚 [ Building Abstractions with Procedures](./SICP-Chapter1-Exercises.md)
+ - 📚 [ Building Abstractions with Procedures](./SICP-Chapter1-Exercises.md) ^a2d7d9
  - 📚 [ Building Abstractions with Data](SICP-Chapter2-Exercises.md) ^b5e02a
  - 📚 [Modularity, Objects, and State](SICP-Chapter3-Exercises.md)
  - 📚 [Metalinguistic Abstraction](SICP-Chapter4-Exercises.md)
