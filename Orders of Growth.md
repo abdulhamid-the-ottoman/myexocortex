@@ -22,8 +22,8 @@ tags:: #orders_of_growth, #sicp/ch1
 ## ❓ Questions
 - 
 ## 📦 Resources
-- [SICPE 1.14](./SICPE%201.14.md)
-- [SICPE 1.15](./SICPE%201.15.md)
+- [Exercise 14](./SICPE%201.14.md)
+- [Exercise 15](./SICPE%201.15.md)
 ## 🎯 Actions
 - [ ] 
 - [ ] 
