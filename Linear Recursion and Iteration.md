@@ -41,12 +41,32 @@ tags:: #linear_recursion_and_iteration #sicp/ch1
 ```Scheme
 (factorial 4) 
 (fact-iter 1 1 4) 
-(fact-iter 1 2 4) 
-(fact-iter 2 3 4)
-(fact-iter 6 4 4) 
-(fact-iter 24 5 4)
+(fact-iter 2 1 4) 
+(fact-iter 3 2 4)
+(fact-iter 4 6 4) 
+(fact-iter 5 24 4)
 24
 ```
+
+- You can have different implementation of the iterative version:
+```Scheme
+(define (fact-iter product num)
+  (if (= num 1)
+      product
+      (fact-iter (* product num) (- num 1))))
+
+(define (factorial num)
+  (fact-iter 1 num))
+```
+
+```Scheme
+(factorial 4)
+(fact-iter 4  3)
+(fact-iter 12 2)
+(fact-iter 24 1)
+24
+```
+
 
 - Both compute the same mathematical function, but the computational processes evolve very differently.
 - The first one is a *linear recursive process*. The chain of deferred operations causes an expansion (as operations are added) and a contraction (as operations are performed).
