@@ -5,7 +5,7 @@ up:: [Building Abstractions with Procedures](./Building%20Abstractions%20with%20
 tags:: #exponentiation, #sicp/ch1 
 
 # Exponentiation
-- One wat to calculate b to the $n^{th}$ power is via the following recursive definition:
+- One way to calculate b to the $n^{th}$ power is via the following recursive definition:
 		![300](./40-referenceVAULTS/Resource%20Library/Images/Pasted%20image%2020230614164433.png)
 	 - Here is the code:
 
