@@ -14,11 +14,54 @@ tags:: #hierarchical_structures
 ```Scheme
 (define (count-leaves x)
   (cond ((null? x) 0)
-        ((not (oair? x)) 1)
+        ((not (pair? x)) 1)
         (else (+ (count-leaves (car x))
                  (count-leaves (cdr x))))))
 ```
 
+## List of List representation of trees
+- Here is a tree, representation
+![400](./40-referenceVAULTS/Resource%20Library/Images/Pasted%20image%2020230729162614.png)
+
+- Here is how we would do it in Scheme:
+```Scheme
+`("a" 
+	  ("b" 
+		  ("d" () ()) 
+		  ("e" () ())
+	   ) 
+	   ("c" 
+			("f" () ()) 
+			()
+		)
+)
+```
+
+- Here is basic operations example on the binary tree shown above:
+```Scheme
+(define (root t)
+  (car t))
+
+(define (lst t)
+  (cadr t))
+
+(define (rst t)
+  (cddr t))
+
+(let ((a `("a" ("b" ("d" () ()) ("e" () ())) ("c" ("f" () ()) ()))))
+  (display (root a))
+  (display "\n")
+  (display (lst a) )
+  (display "\n")
+  (display (rst a) )
+  (display "\n")
+  (display (lst (lst a))))
+
+> a
+(b (d () ()) (e () ()))
+((c (f () ()) ()))
+(d () ())
+```
 ## Mapping over trees
 
 ^e5bb82
