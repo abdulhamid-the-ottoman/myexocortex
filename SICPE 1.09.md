@@ -3,7 +3,7 @@ created: ["2023-06-14 17:32"]
 share: true
 ---
 
-up::
+up::[SICP-Chapter1-Exercises](./SICP-Chapter1-Exercises.md)
 
 # ❗ Information
 Related to:: 
@@ -55,7 +55,7 @@ ___
 (+ 0 9)
 9
 ```
-- obviously this is an iterative process.
+- obviously this is an iterative process. Tail-call optimization
 # 🧠 Ideas about Problem
 
 # 🔗 Related Applications
