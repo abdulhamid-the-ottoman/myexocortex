@@ -1,6 +1,6 @@
 ---
 created:
-  - 2023-09-20 10:17
+  - 2023-09-19 15:02
 aliases:
   - UseCase
 
@@ -24,40 +24,26 @@ Subject::
 Completed on::
 
 ---
-# 🔰 Performance Reporting ->  
-- You can't get better at something if you can't measure it.
-- Here is a diagrammatic view of all the use cases
-
-![Performance Reports 4.png](./40-referenceVAULTS/Resource%20Library/Images/Performance%20Reports%204.png)
-
+# 🔰Prayer Watch ->  
+- This feature is all about tracking of salahs and composed of several use-cases.
+- Here is a diagrammatic view of all the use-cases
+	![PrayerWatch 2.png](./40-referenceVAULTS/Resource%20Library/Images/PrayerWatch%202.png)
 # 🎯 What Is The Objective
-Objective of performance reporting is getting statistics
-## Use case: Github like reporting (ucGLR)
-- The goal is to represent a view where columns represent daily salahs and rows represent the days of the month
-- Each color has a different meaning
-	- yellow -> on time
-	- orange -> late
-	- red -> not prayed
-	- green -> jamaah.
-	
-## Use case: Time Frame Based Reporting (ucTFBR)
-- The goal is to represent the each salah status based on percentages and numbers depending on the selected time frame.
+## Use case : View the daily prayer times and status (ucVDPTS)
+- The goal is for the user the see the prayer times of all the prayers in daily calendar view along with the status of the prayer with reasons
 
-## Use case:  Qadha Progress Reporting (ucQPR)
-- The goal is to represent overall qadhas in pie graphic where
-	- red represents the reamining qadha
-	- yellow(optional)   -> represents the nafilah
-	- orange (optional) -> sunnah of daily prayers
-	- purple (optional)  -> prayed qadha 
- 
-## Use case: Growth Tips (ucGT)
-- The goal is to showcase growth tips
-	- Achievements compared to yesterday, last week, last month
-	- Warnings regarding 2 consecutive day strikes!
+## Use case : Status Reporting (ucUDPS)
+- The goal is to report/update the status of the prayers to states like : 
+	- On time
+	- Late
+	- Not prayed
+## Use case : Cause Tracking (ucCT)
+- The goal is to track the reasons for late and not prayed salahs to keep a record in order to come up with better notifications or tips for the user to keep up with his/her salahs.
 
-
-# ✅ Checklist 
-- [ ] Clear Value 
-- [ ] Actors
-- [ ] Focus Based Approach
-- [ ] Diagrams
+## Use case: Qadha / Nafilah Reporting (ucQNR)
+- The goal is to track the prayed qadha and nafilah in the pursue of breaking even
+# ✅ Checklist Inspiration
+- [ ] ucVDPTS
+- [ ] ucUDPS
+- [ ] ucCT
+- [ ] ucQNR
