@@ -7,7 +7,7 @@ tags:: #procedures_as_arguments
 # Procedures as Arguments
 - Procedures that compute a sum can take many forms such as:
 	- sum of integers from a through b:
-		```Scheme
+	```Scheme
 	#lang sicp
 	(define (sum-integers a b)
 		(if (> a b)
@@ -17,7 +17,7 @@ tags:: #procedures_as_arguments
 	(sum-integers 1 5) ; 15
 	```
 	- sum of cubes of the integers in the given range:
-		```Scheme
+	```Scheme
 	(define (cube x) (* x x x))
 	(define (sum-cubes a b)
 		(if (> a b)
@@ -25,9 +25,9 @@ tags:: #procedures_as_arguments
 		    (+ (cube a) (sum-cubes (+ a 1) b))))
 
 	(sum-cubes 1 3) ;36
-```
+	```
 	 - sum of a sequence of terms in the series which converges to $\frac{\pi}{8}$ :
-	 ```Scheme
+```Scheme
 	(define (pi-sum a b)
 		(if (> a b)
 	      0
@@ -36,9 +36,10 @@ tags:: #procedures_as_arguments
 
 	(* 8 (pi-sum 1 300)) ; 3.134926060993086
 ```
+	
 - If you pay close attention, you would see that their form is very similar, and we can represent them with the following form:
 
-	```Scheme
+```Scheme
 (define (<name> a b)
   (if (> a b)
       0
@@ -46,8 +47,8 @@ tags:: #procedures_as_arguments
          (<name> (<next> a) b))))  ; recursive call with the next value
 ```
 
-	- This is a useful abstraction, just as the sigma notation $\Sigma$ (symbol for summation) in math because the summation of series is so common.
-		![300](Pasted%20image%2020230616183654.png)
+- This is a useful abstraction, just as the sigma notation $\Sigma$ (symbol for summation) in math because the summation of series is so common.
+		![300](./40-referenceVAULTS/Resource%20Library/Images/Pasted%20image%2020230616183654.png)
 	- The power of sigma notation is that it allows mathematicians to deal with the concept of summation itself rather than only with particular sums.
 	
 - Now, as programmers we are nothing short of mathematicians, we would like our language to be powerful enough so that we can *write a procedure that expresses the concept of summation* itself rather than *only procedures that compute particular sums such as* **sum-integers** , **sum-cubes** and **pi-sum**
@@ -76,7 +77,7 @@ tags:: #procedures_as_arguments
  
 - We can use this sum as a building block in formulating further concepts such as the definite integral of a function f between the limits a and b can be approximated numerically using the following formula:
 
-	![Pasted image 20230616212533.png](Pasted%20image%2020230616212533.png)
+	![Pasted image 20230616212533.png](./40-referenceVAULTS/Resource%20Library/Images/Pasted%20image%2020230616212533.png)
 
 	- We can express this procedure directly as a procedure:
 	 ```Scheme

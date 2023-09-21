@@ -26,33 +26,37 @@ tags:: #procedures_as_returned_values, #newtons_method #first_class_procedures
 >  - Experienced programmers know how to choose procedural formulations that are particularly perspicuous, and where useful elements of the process are exposed as separate entities that can be reused in other applications.
 
 - Using `average-damp`, we can re-formulate the square-root procedure as follows using `fixed-pt` procedure ![Procedures as General Methods > ^6d0ad9](./Procedures%20as%20General%20Methods.md#^6d0ad9) 
-- This is a nice solution to the problem mentioned here [Procedures as General Methods > ^693fc1](./Procedures%20as%20General%20Methods.md#^693fc1)
+- This is a nice solution to the oscillation problem mentioned here [Procedures as General Methods > ^693fc1](./Procedures%20as%20General%20Methods.md#^693fc1)
 	```Scheme
 	(define (sqrt x)
 		(fixed-pt (average-damp (lambda (y) (/ x y))) 1.0))
 	```
 	
-
 ## Newton's method
 - The square root procedure we wrote [Square Roots by Newton's Method](./Square%20Roots%20by%20Newton's%20Method.md) was a special case of newton's method.
 - Given a function f(x), the solution to f(x) = 0 is given by the fixed point of
-		![200](./40-referenceVAULTS/Resource%20Library/Images/IMG_465DC3C6E83A-1.jpeg)
-	 - $\mapsto$ is pronounced as "maps to", is the mathematician's way of writing lambda y $\mapsto$ x/y means `(lambda (y) (/ x y))`, that is, the function whose value at y is x/y
+		![300](./40-referenceVAULTS/Resource%20Library/Images/IMG_465DC3C6E83A-1.jpeg)
+	-  $\mapsto$ is pronounced as "maps to", is the mathematician's way of writing lambda y $\mapsto$ x/y means `(lambda (y) (/ x y))`, that is, the function whose value at y is x/y
+	- This is known as newton transform and can be also given mathematically as
+		![300](./40-referenceVAULTS/Resource%20Library/Images/Pasted%20image%2020230727144614.png)
+	- This function finds the $x_2$ shown below using $x_1$
+		![Pasted image 20230727142727.png](./40-referenceVAULTS/Resource%20Library/Images/Pasted%20image%2020230727142727.png)
+	- Finding fixed point iterates this function until you hit the f(x) =x
+
 	 
 - Newton's method converges very quickly- much faster than the half-interval method in favorable cases. 
 	- We need a procedure to transform a function into its derivative ( a new procedure). We can use a small dx for this:
 			![300](./40-referenceVAULTS/Resource%20Library/Images/IMG_EC087598CCAF-1.jpeg)
 
 	 - This translates to the following procedure:
-		 ```Scheme
+```Scheme
 	(define (deriv f)
 		(lambda (x) (/ (- (f (+ x dx)) (f x)) dx)))
-	```
+```
 
-	 - Like average-damp, deriv is a procedure that takes a procedure as argument and returns a procedure as a value.
+- Like average-damp, deriv is a procedure that takes a procedure as argument and returns a procedure as a value.
 	 - Now we can approximate the derivative of x $\mapsto$ $x^3$  at 5 (which is exactly 75), we can evaluate
-
-		```Scheme
+```Scheme
 		(define (cube x) (* x x x))
 		((deriv cube) 5) ;; 75.000149
 ```

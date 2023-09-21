@@ -70,8 +70,8 @@ share: true
 
 - 📚 [Systems with Generic Operations](./Systems%20with%20Generic%20Operations.md) ^daebf9
 	- [Generic Arithmetic Operations](./Generic%20Arithmetic%20Operations.md)
-	- [Combining Data of Different Types](Combining%20Data%20of%20Different%20Types.md)
-	- [Symbolic Algebra](Symbolic%20Algebra.md)
+	- [Combining Data of Different Types](./Combining%20Data%20of%20Different%20Types.md)
+	- [Symbolic Algebra](./Symbolic%20Algebra.md)
 
 ## Modularity, Objects, and State
 
@@ -166,13 +166,16 @@ share: true
 	- [Interfacing Compiled Code to the Evaluator](Interfacing%20Compiled%20Code%20to%20the%20Evaluator.md)
 
 # Lecture Notes
+
+^32569d
+
 - 📚 Chapter 1
 	- [Overview and Introduction to Lisp](./Overview%20and%20Introduction%20to%20Lisp.md)
 	- [Procedures and Process; Substitution Model](./Procedures%20and%20Process;%20Substitution%20Model.md)
 
 - 📚Chapter 2
 	- [Higher-Order Procedures](./Higher-Order%20Procedures.md)
-	- [Compound Data](Compound%20Data.md)
+	- [Compound Data](./Compound%20Data.md) ^a9f1bd
 
 - 📚Chapter 3
 	- [Henderson Escher Example](Henderson%20Escher%20Example.md)
