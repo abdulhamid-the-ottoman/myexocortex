@@ -60,7 +60,7 @@ tags:: #procedures_as_general_methods #half_interval_method #fixed_point_of_func
 - In some cases, repeatedly applying the function to an arbitrary initial guess will converge on the fixed point.
 	- f(f(f(f ...... (x)))) = x
 - The procedure we made earlier for finding square roots is actually a special case of the fixed point procedure.
-	- ![Square Roots by Newton's Method > ^23697c](./Square%20Roots%20by%20Newton's%20Method.md#^23697c)
+![Square Roots by Newton's Method > ^23697c](./Square%20Roots%20by%20Newton's%20Method.md#^23697c)
 - Let'`s implement this function:
 ```Scheme
 #lang sicp
@@ -80,7 +80,7 @@ tags:: #procedures_as_general_methods #half_interval_method #fixed_point_of_func
         
   (iter initial-guess)
  )
-
+#this gives you x where cos(x) = x, basically where it cuts y=x
 (fixed-pt cos 1.0); 0.739
 ```
 
@@ -93,13 +93,16 @@ tags:: #procedures_as_general_methods #half_interval_method #fixed_point_of_func
 	-  Computing the square root of some number of x requires finding a y such that $y^2$ = x
 	- Putting the equation into *equivalent form* y = $\frac{x}{y}$
 	- Then we try to compute it as follows:
-		```Scheme
+```Scheme
 		(define (sqrt x)
 		  (fixed-pt (lambda (y) (/ x y)) 1.0))
 		(sqrt 2.0)
 ```
-	- Unfortunately, this fixed-pt search doesn't converge.! Why?
-		- Consider the initial guess $y_1$ Let's assume that next guess is $y_2$ = $\frac{x}{y_1}$
+- what happens here is we try to calculate the fixed point of f(y) = 2/y
+- if we were to call `(sqrt 3.0)` , then we would be finding the fixed point of f(y) = 3.0/y
+
+- Unfortunately, this fixed-pt search doesn't converge.! Why?
+	-  Consider the initial guess $y_1$ Let's assume that next guess is $y_2$ = $\frac{x}{y_1}$
 		- Then the next next $y_3$ = $\frac{x}{y_2}$ = $\frac{x}{\frac{x}{y_2}}$ = $y_2$, so it loops around!. This will *oscillate* about the answer.
 	- So we need a way to control this oscillations. going back and forth between 2 points causes this problem
 		- We know that our answer is between x and x/y , so we want to make a new guess that is not as far from y as x/y by averaging y with x/y.
