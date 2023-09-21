@@ -3,7 +3,7 @@ created: ["2023-06-14 17:41"]
 share: true
 ---
 
-up::
+up::[SICP-Chapter1-Exercises](./SICP-Chapter1-Exercises.md)
 
 # ❗ Information
 Related to:: 
