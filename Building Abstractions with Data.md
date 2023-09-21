@@ -5,8 +5,6 @@ share: true
 up:: [SICP](./SICP.md)
 tags:: #abstractions #abstraction_with_data
 
-
-
 # Building Abstractions with Data
 - In [Building Abstractions with Procedures](./Building%20Abstractions%20with%20Procedures.md) chapter, we wrote procedures that operated on simple numerical data.
 - In this chapter we are going to look at more complex data.
