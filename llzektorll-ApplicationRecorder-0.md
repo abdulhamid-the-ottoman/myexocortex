@@ -1,5 +1,6 @@
 ---
-created: ["{{date}} {{time}}"]
+created:
+  - "{{date}} {{time}}"
 share: true
 ---
 
