@@ -13,65 +13,65 @@ share: true
 ## Frontmatter
 - [Dedication](Dedication.md)
 - [Foreword](Foreword.md)
-- [Preface](Preface.md)
+- [Chapter 0](./Chapter%200.md)
 - [Highlights](Highlights.md)
 
-## 💠 <mark style="background: #D2B3FFA6;">[Building Abstractions with Procedures](./Building%20Abstractions%20with%20Procedures.md)</mark>
-- 📚 [The Elements of Programming](./The%20Elements%20of%20Programming.md)
-	- [Expressions](./Expressions.md)
-	- [Naming and the Environment](./Naming%20and%20the%20Environment.md)
-	- [Evaluating Combinations](./Evaluating%20Combinations.md)
-	- [Compound Procedures](./Compound%20Procedures.md)
-	- [The Substitution Model for Procedure Application](./The%20Substitution%20Model%20for%20Procedure%20Application.md)
-	- [Conditional Expressions and Predicates](./Conditional%20Expressions%20and%20Predicates.md)
-	- [Square Roots by Newton's Method](./Square%20Roots%20by%20Newton's%20Method.md)
-	- [Procedures as Black-Box Abstractions](./Procedures%20as%20Black-Box%20Abstractions.md)
+## 💠 <mark style="background: #D2B3FFA6;">[Building Abstractions with Procedures](Building%20Abstractions%20with%20Procedures.md)</mark>
+- 📚 [The Elements of Programming](The%20Elements%20of%20Programming.md)
+	- [Expressions](Expressions.md)
+	- [Naming and the Environment](Naming%20and%20the%20Environment.md)
+	- [Evaluating Combinations](Evaluating%20Combinations.md)
+	- [Compound Procedures](Compound%20Procedures.md)
+	- [The Substitution Model for Procedure Application](The%20Substitution%20Model%20for%20Procedure%20Application.md)
+	- [Conditional Expressions and Predicates](Conditional%20Expressions%20and%20Predicates.md)
+	- [Square Roots by Newton's Method](Square%20Roots%20by%20Newton's%20Method.md)
+	- [Procedures as Black-Box Abstractions](Procedures%20as%20Black-Box%20Abstractions.md)
 	
-- 📚[Procedures and the Processes They Generate](./Procedures%20and%20the%20Processes%20They%20Generate.md)
-	- [Linear Recursion and Iteration](./Linear%20Recursion%20and%20Iteration.md)
-	- [Tree Recursion](./Tree%20Recursion.md)
-	- [Orders of Growth](./Orders%20of%20Growth.md)
-	- [Exponentiation](./Exponentiation.md)
-	- [Greatest Common Divisors](./Greatest%20Common%20Divisors.md)
-	- [Testing for Primality](./Testing%20for%20Primality.md)
+- 📚[Procedures and the Processes They Generate](Procedures%20and%20the%20Processes%20They%20Generate.md)
+	- [Linear Recursion and Iteration](Linear%20Recursion%20and%20Iteration.md)
+	- [Tree Recursion](Tree%20Recursion.md)
+	- [Orders of Growth](Orders%20of%20Growth.md)
+	- [Exponentiation](Exponentiation.md)
+	- [Greatest Common Divisors](Greatest%20Common%20Divisors.md)
+	- [Testing for Primality](Testing%20for%20Primality.md)
 	
-- 📚[Formulating Abstractions with Higher-Order Procedures](./Formulating%20Abstractions%20with%20Higher-Order%20Procedures.md)
-	- [Procedures as Arguments](./Procedures%20as%20Arguments.md)
-	- [Constructing Procedures Using Lambda](./Constructing%20Procedures%20Using%20Lambda.md)
-	- [Procedures as General Methods](./Procedures%20as%20General%20Methods.md)
-	- [Procedures as Returned Values](./Procedures%20as%20Returned%20Values.md)
+- 📚[Formulating Abstractions with Higher-Order Procedures](Formulating%20Abstractions%20with%20Higher-Order%20Procedures.md)
+	- [Procedures as Arguments](Procedures%20as%20Arguments.md)
+	- [Constructing Procedures Using Lambda](Constructing%20Procedures%20Using%20Lambda.md)
+	- [Procedures as General Methods](Procedures%20as%20General%20Methods.md)
+	- [Procedures as Returned Values](Procedures%20as%20Returned%20Values.md)
 
-## 💠<mark style="background: #D2B3FFA6;">[Building Abstractions with Data](./Building%20Abstractions%20with%20Data.md)</mark>
+## 💠<mark style="background: #D2B3FFA6;">[Building Abstractions with Data](Building%20Abstractions%20with%20Data.md)</mark>
 
 ^d1c4f8
 
-- 📚 [Introduction to Data Abstraction](./Introduction%20to%20Data%20Abstraction.md) ^0a8a89
-	- [Arithmetic Operations for Rational Numbers](./Arithmetic%20Operations%20for%20Rational%20Numbers.md)
-	- [Abstraction Barriers](./Abstraction%20Barriers.md)
-	- [What is Meant by Data?](./What%20is%20Meant%20by%20Data?.md)
-	- [Interval Arithmetic](./Interval%20Arithmetic.md)
+- 📚 [Introduction to Data Abstraction](Introduction%20to%20Data%20Abstraction.md) ^0a8a89
+	- [Arithmetic Operations for Rational Numbers](Arithmetic%20Operations%20for%20Rational%20Numbers.md)
+	- [Abstraction Barriers](Abstraction%20Barriers.md)
+	- [What is Meant by Data?](What%20is%20Meant%20by%20Data?.md)
+	- [Interval Arithmetic](Interval%20Arithmetic.md)
 
-- 📚[Hierarchical Data and the Closure Property](./Hierarchical%20Data%20and%20the%20Closure%20Property.md) ^25846d
-	- [Representing Sequences](./Representing%20Sequences.md)
-	- [Hierarchical Structures](./Hierarchical%20Structures.md)
-	- [Sequences as Conventional Interfaces](./Sequences%20as%20Conventional%20Interfaces.md)
-	- [A Picture Language](./A%20Picture%20Language.md)
+- 📚[Hierarchical Data and the Closure Property](Hierarchical%20Data%20and%20the%20Closure%20Property.md) ^25846d
+	- [Representing Sequences](Representing%20Sequences.md)
+	- [Hierarchical Structures](Hierarchical%20Structures.md)
+	- [Sequences as Conventional Interfaces](Sequences%20as%20Conventional%20Interfaces.md)
+	- [A Picture Language](A%20Picture%20Language.md)
 
-- 📚[Symbolic Data](./Symbolic%20Data.md) ^369430
-	- [Quotation](./Quotation.md)
-	- [Symbolic Differentiation](./Symbolic%20Differentiation.md)
-	- [Representing Sets](./Representing%20Sets.md)
-	- [Huffman Encoding Trees](./Huffman%20Encoding%20Trees.md)
+- 📚[Symbolic Data](Symbolic%20Data.md) ^369430
+	- [Quotation](Quotation.md)
+	- [Symbolic Differentiation](Symbolic%20Differentiation.md)
+	- [Representing Sets](Representing%20Sets.md)
+	- [Huffman Encoding Trees](Huffman%20Encoding%20Trees.md)
 
-- 📚 [Multiple Representations for Abstract Data](./Multiple%20Representations%20for%20Abstract%20Data.md) ^b0aa29
-	- [Representations for Complex Numbers](./Representations%20for%20Complex%20Numbers.md)
-	- [Tagged Data](./Tagged%20Data.md)
-	- [Data-Directed Programming and Additivity](./Data-Directed%20Programming%20and%20Additivity.md)
+- 📚 [Multiple Representations for Abstract Data](Multiple%20Representations%20for%20Abstract%20Data.md) ^b0aa29
+	- [Representations for Complex Numbers](Representations%20for%20Complex%20Numbers.md)
+	- [Tagged Data](Tagged%20Data.md)
+	- [Data-Directed Programming and Additivity](Data-Directed%20Programming%20and%20Additivity.md)
 
-- 📚 [Systems with Generic Operations](./Systems%20with%20Generic%20Operations.md) ^daebf9
-	- [Generic Arithmetic Operations](./Generic%20Arithmetic%20Operations.md)
-	- [Combining Data of Different Types](./Combining%20Data%20of%20Different%20Types.md)
-	- [Symbolic Algebra](./Symbolic%20Algebra.md)
+- 📚 [Systems with Generic Operations](Systems%20with%20Generic%20Operations.md) ^daebf9
+	- [Generic Arithmetic Operations](Generic%20Arithmetic%20Operations.md)
+	- [Combining Data of Different Types](Combining%20Data%20of%20Different%20Types.md)
+	- [Symbolic Algebra](Symbolic%20Algebra.md)
 
 ## Modularity, Objects, and State
 
@@ -170,12 +170,12 @@ share: true
 ^32569d
 
 - 📚 Chapter 1
-	- [Overview and Introduction to Lisp](./Overview%20and%20Introduction%20to%20Lisp.md)
-	- [Procedures and Process; Substitution Model](./Procedures%20and%20Process;%20Substitution%20Model.md)
+	- [Overview and Introduction to Lisp](Overview%20and%20Introduction%20to%20Lisp.md)
+	- [Procedures and Process; Substitution Model](Procedures%20and%20Process;%20Substitution%20Model.md)
 
 - 📚Chapter 2
-	- [Higher-Order Procedures](./Higher-Order%20Procedures.md)
-	- [Compound Data](./Compound%20Data.md) ^a9f1bd
+	- [Higher-Order Procedures](Higher-Order%20Procedures.md)
+	- [Compound Data](Compound%20Data.md) ^a9f1bd
 
 - 📚Chapter 3
 	- [Henderson Escher Example](Henderson%20Escher%20Example.md)
@@ -212,7 +212,7 @@ share: true
 # Exercises
 
  - 📚 [Note on the Language](Note%20on%20the%20Language.md)
- - 📚 [ Building Abstractions with Procedures](./SICP-Chapter1-Exercises.md) ^a2d7d9
+ - 📚 [ Building Abstractions with Procedures](SICP-Chapter1-Exercises.md) ^a2d7d9
  - 📚 [ Building Abstractions with Data](SICP-Chapter2-Exercises.md) ^b5e02a
  - 📚 [Modularity, Objects, and State](SICP-Chapter3-Exercises.md)
  - 📚 [Metalinguistic Abstraction](SICP-Chapter4-Exercises.md)

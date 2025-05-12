@@ -1,5 +1,6 @@
 ---
-created: ["2023-07-08 12:08"]
+created:
+  - 2023-07-08 12:08
 share: true
 ---
 
@@ -200,7 +201,8 @@ public:
   
        int child_no = cn->count();  
        //the deleted word is a prefix of the other words  
-       //there are other words using this path       if(child_no > 0){  
+       //there are other words using this path      
+       if(child_no > 0){  
            cn->unmarkAsEnding();  
            return true;  
        }  
